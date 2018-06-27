@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
 
         val channel = pusher.subscribe("polls")
 
-        channel.bind("soccer") { channelName, eventName, data ->
+        channel.bind("vote") { channelName, eventName, data ->
             Log.d(tag, data)
             val jsonObject = JSONObject(data)
 
