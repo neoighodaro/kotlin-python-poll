@@ -59,6 +59,6 @@ def update_poll():
   )
 
 
-  pusher.trigger(u'polls', u'soccer', {u'1': choice1_percent, '2':choice2_percent, '3':choice3_percent})
+  pusher.trigger(u'polls', u'vote', {u'1': choice1_percent, '2':choice2_percent, '3':choice3_percent})
 
   return 'success', 200
