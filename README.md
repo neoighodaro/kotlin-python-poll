@@ -1,6 +1,6 @@
 # Realtime polls App
 
-This app mimics a typical twitter poll. A user votes for their option and see the results live. The app also sends notifications when someone has voted. There is a tutorial [here](https://blog.pusher.com/) to guide you.
+This app mimics a typical twitter poll. A user votes for their option and see the results live. The app also sends notifications when someone has voted. There is a tutorial [here](https://pusher.com/tutorials/android-poll-push-notifications) to guide you.
 
 ## Getting Started
 
